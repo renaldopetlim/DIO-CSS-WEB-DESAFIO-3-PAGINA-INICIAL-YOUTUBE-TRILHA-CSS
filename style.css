@@ -1,0 +1,54 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    background-color: #FFFFFF;
+}
+    .head-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-left: 24px;
+        background-color: transparent;
+    }
+        .menu{
+            width: 24px;
+            background-color: transparent;
+        }
+        .logo{
+            background-color: transparent;
+        }
+    .head-2{
+        display: flex;
+    }
+        .head-2 input{
+            width: 18vw;
+            height: 3.3vh;
+            border: 1px solid #CCCCCC;
+            padding: 0 5px 0 5px;
+        }
+        .head-2 button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3.3vw;
+            height: 3.3vh;
+            background: #F8F8F8;
+            border: 1px solid #CCCCCC;
+        }
+            .head-2 button img{
+                width: 24px;
+            }
+    .head-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-right: 24px;
+        background-color: transparent;
+    }
+        .head-3 img{
+            background: transparent;
+        }
