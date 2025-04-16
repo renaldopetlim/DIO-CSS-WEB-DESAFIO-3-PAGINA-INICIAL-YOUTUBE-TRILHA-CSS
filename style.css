@@ -1,8 +1,47 @@
 /* -------------------- HEADER -------------------- */
 #header{
     display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
     height: 5vh;
 }
+    .head-1{
+        display: grid;
+        grid-template-columns: 2fr 3fr 2fr;
+        align-items: center;
+        justify-items: center;
+        margin-left: 8px;
+    }
+    .head-2{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+        .head-2 input{
+            width: 18vw;
+            height: 3.3vh;
+            border: 1px solid #CCCCCC;
+            padding: 0 5px 0 5px;
+        }
+        .head-2 button{
+            display: grid;
+            justify-items: center;
+            align-items: center;
+            width: 3.3vw;
+            height: 3.3vh;
+            background: #F8F8F8;
+            border: 1px solid #CCCCCC;
+        }
+            .head-2 button img{
+                width: 24px;
+            }
+    .head-3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        margin-right: 16px;
+    }
 /* -------------------- MAIN -------------------- */
 #main{
     display: grid;
