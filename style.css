@@ -1,7 +1,18 @@
+/* -------------------- HEADER -------------------- */
 #header{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
     height: 5vh;
-    background-color: #FFFFFF;
 }
-/* -------------------- -------------------- */
+/* -------------------- MAIN -------------------- */
+#main{
+    display: grid;
+    grid-template-columns: 16% 84%;
+}
+/* -------------------- ASIDE -------------------- */
+#aside{
+    margin: 20px 20px 0 20px;
+}
+/* -------------------- SECTION -------------------- */
+#section{
+    margin: 30px;
+}
