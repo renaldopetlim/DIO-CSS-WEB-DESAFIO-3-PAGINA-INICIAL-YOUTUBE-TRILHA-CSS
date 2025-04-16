@@ -49,9 +49,54 @@
 }
 /* -------------------- ASIDE -------------------- */
 #aside{
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 22px;
+    height: 2vh;
     margin: 20px 20px 0 20px;
 }
+    #aside div{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        align-items: center;
+        justify-items: start;
+    }
+        #aside h5{
+            font-size: 14px;
+            font-weight: 400;
+        }
 /* -------------------- SECTION -------------------- */
 #section{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 32px;
     margin: 30px;
 }
+    .sec-1{
+        display: grid;
+        gap: 32px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+        .sec-2{
+            display: grid;
+            row-gap: 16px;
+        }
+            .sec-3{
+                display: grid;
+                grid-template-columns: 1fr 4fr;
+            }
+                .sec-3 h3{
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+                .sec-3 p{
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+                    .sec-4{
+                        display: grid;
+                        gap: 10px;
+                    }
+            .thumbs{
+                width: 100%;
+            }
