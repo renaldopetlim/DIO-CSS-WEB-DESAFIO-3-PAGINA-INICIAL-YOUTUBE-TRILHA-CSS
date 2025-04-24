@@ -130,6 +130,7 @@
     #section{
         margin: 8px 0 8px 0;
         height: auto;
+        gap: 16px;
     }
         .sec-1{
             grid-template-columns: 1fr;
