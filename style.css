@@ -100,3 +100,49 @@
             .thumbs{
                 width: 100%;
             }
+
+@media (max-width: 768px){
+    #header{
+        margin: 4px 12px;
+        grid-template-columns: 1fr 1fr;
+    }
+        .head-1{
+            margin: 0;
+            grid-template-columns: 1fr;
+            justify-items: flex-start;
+        }
+        .menu{
+            display: none;
+            }
+        .head-2{
+            display: none;
+        }
+        .head-3{
+            margin: 0;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    #aside{
+        display: none;
+    }
+#main{
+    grid-template-columns: 1fr;
+}    
+    #section{
+        margin: 8px 0 8px 0;
+        height: auto;
+    }
+        .sec-1{
+            grid-template-columns: 1fr;
+            gap: 16px;
+        }
+            .sec-2{
+                gap: 8px;
+            }
+                .sec-3{
+                    grid-template-columns: 1fr 5fr;
+                    margin: 0 8px 0 8px;
+                }
+                    .sec-4{
+                        gap: 4px;
+                    }
+}
